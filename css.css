@@ -9,7 +9,7 @@ h4 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     text-align: center;
-
+    outline: 2px dashed;
 }
 
 
@@ -18,18 +18,26 @@ h4 {
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
+    outline: 1px dotted;
+    text-align: right;
 }
-
-
 
 #tableOfContents {
     color: rgb(0,200,0);
     font-size: 30;
+    outline: 2px dashed;
+    padding: 50px;
 }
 
+#tableOfContentsBox {
+    outline: 1px dotted;
+}
 
-
-
+#testListItem {
+    outline: 1px dotted;
+    margin-right: 50%;
+    text-align: center;
+}
 
 
 
