@@ -12,6 +12,30 @@ h4 {
     outline: 2px dashed;
 }
 
+.letter {
+    font-size: 70px;
+}
+
+.letter.red {
+    color: rgb(255,0,0);
+}
+
+.letter.blue {
+    color: rgb(0,0,255);
+}
+
+.letter.yellow {
+    color: rgb(255,255,0);
+}
+
+.letter.green {
+    color: rgb(0,255,0);
+}
+
+.letter.orange {
+    color: rgb(255,165,0);
+}
+
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
