@@ -12,7 +12,6 @@ h4 {
     outline: 2px dashed;
 }
 
-
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
@@ -58,18 +57,21 @@ h4 {
 
 
 /*
-------------CSS RULE-------------
+------------CSS Rule Structure-------------
 
 
-selector
- _|__
-|    |
-
-
-
-
-
-
-
+SELECTOR
+ _|_
+|   |
+  p {
+    font-family: Arial;
+    color: rgb(15,15,15); 
+    }
+    |____||______________|
+      |           |
+  Property      Value
+    |_____________________|
+              |
+         DECLARATION
 
 */
