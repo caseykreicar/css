@@ -13,8 +13,6 @@ h4 {
 }
 
 
-
-
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
@@ -39,9 +37,23 @@ h4 {
     text-align: center;
 }
 
+.scheduleTable {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(0,0,0);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 1.0rem;
+}
 
+.scheduleTable.data {
+    background-color: rgb(250,235,215);
+}
 
-
+.scheduleTable.header {
+    background-color: rgb(140,140,185);
+    font-size: 20px;
+}
 
 
 
