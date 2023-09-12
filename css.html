@@ -12,11 +12,30 @@
                 <h4>This web page demonstrates basic css </h4>
             </header>
             <h3>Color:</h3>
+            <!--each span element has a specific class that all inherit the same font size, however each letter has a different color delcared-->
             <span class="letter red">C</span><span class="letter blue">O</span><span class="letter yellow">L</span><span class="letter orange">O</span><span class="letter green">R</span>
             <p id="topic-1-css"></p>
             <p id="paragraphExample01">Hi there! This is an example of using an id attribute with the paragraph element</p>
 <hr>
 <h3>Form Input:</h3>
+<article id="contact">
+    <h5>Enter Login:</h5>
+    <form action="https://httpbin.org/get" method="get">
+        <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Input here.." autocomplete="on" required>
+        </p>
+        <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Input here.." autocomplete="on" required>
+        </p>
+        <p>
+        <label for="password">Password:</label>
+        <!--input element with type attribute name and password attribute value hides user input for the text input for a "password entry"-->
+        <input type="password" name="lastName" id="password" placeholder="Input here.." required>
+        </p>
+    </form>
+</article>
 <hr>
 <br>
 <br>
@@ -67,7 +86,6 @@
     </table>
 </article>
 <hr>
-
 <br>
 <br>
 <br>
@@ -95,3 +113,45 @@
 
         </body>
     </html>
+
+
+
+
+
+
+
+
+<!--###################################################################################-->
+<!--                 NOTES:
+
+Unique element Identifier (1):
+
+HTML identifier IN HTML=     <p id="identifierName">a unique paragraph with an id attribute</p>
+HTML identifier IN CSS=      #identifierName {}
+
+
+
+Multiple Identifiers (ie... class and classes) with inheritance:
+
+HTML class IN HTML=   <p class="className">a unique paragraph with class attribute</p>
+HTML class IN CSS =   .className
+
+HTML classes IN HTML=   <p class="className paragraph-1">a child of the className paragraph class</p>
+HTML classes IN CSS =   .className.paragraph-1 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<!--###################################################################################-->

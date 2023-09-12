@@ -11,7 +11,8 @@ h4 {
     text-align: center;
     outline: 2px dashed;
 }
-
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*the letter class declares a font, each class below (ie..   .red, .blue, .yellow  etc..) inherits this font as well but also delcares different color*/
 .letter {
     font-size: 70px;
 }
@@ -35,7 +36,7 @@ h4 {
 .letter.orange {
     color: rgb(255,165,0);
 }
-
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
