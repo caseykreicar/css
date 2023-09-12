@@ -16,11 +16,20 @@
             <span class="letter red">C</span><span class="letter blue">O</span><span class="letter yellow">L</span><span class="letter orange">O</span><span class="letter green">R</span>
             <p id="topic-1-css"></p>
             <p id="paragraphExample01">Hi there! This is an example of using an id attribute with the paragraph element</p>
-<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h3>Form Input:</h3>
 <article id="contact">
     <h5>Enter Login:</h5>
-    <form action="https://httpbin.org/get" method="get">
+    <form action="https://httpbin.org/get" id="inputForm" method="get">
         <p>
         <label for="firstName">First Name:</label>
         <input type="text" name="firstName" id="firstName" placeholder="Input here.." autocomplete="on" required>
@@ -34,30 +43,28 @@
         <!--input element with type attribute name and password attribute value hides user input for the text input for a "password entry"-->
         <input type="password" name="lastName" id="password" placeholder="Input here.." required>
         </p>
+        <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="800 500 5555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+        </p>
+        <p>
+        <label for="decade">Decade of Birth:</label>
+        <input type="number" name="decade" id="decade" min="1930" max="2020" step="10" value="1990">
+        </p>
+        <p>
+            <label for="tea">Favorite Tea:</label>
+            <select name="tea" id="tea">
+                <option value="black tea">Black Tea</option>
+                <option value="black tea">Green Tea</option>
+                <option value="black tea">Earl Grey Tea</option>                
+            </select>
+            </p>
     </form>
 </article>
-<hr>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
 <h3>Schedule Table:</h3>
 <article id="scheduleTable">
     <table class="scheduleTable">
@@ -85,9 +92,6 @@
         </tr>
     </table>
 </article>
-<hr>
-<br>
-<br>
 <br>
 <br>
 <br>

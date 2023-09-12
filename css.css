@@ -79,6 +79,15 @@ h4 {
     font-size: 20px;
 }
 
+#inputForm {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: 2px dotted;
+    font-size: 10px;
+    font-weight: 999;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 35%
+}
 
 
 /*
