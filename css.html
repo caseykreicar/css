@@ -30,6 +30,8 @@
 <article id="contact">
     <h5>Enter Login:</h5>
     <form action="https://httpbin.org/get" id="inputForm" method="get">
+        <fieldset>
+            <legend>Info about You</legend>
         <p>
         <label for="firstName">First Name:</label>
         <input type="text" name="firstName" id="firstName" placeholder="Input here.." autocomplete="on" required>
@@ -45,6 +47,7 @@
         </p>
         <p>
         <label for="phone">Phone:</label>
+        <!--input with pattern attribute allows a specified criteria for input-->
         <input type="tel" name="phone" id="phone" placeholder="800 500 5555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
         </p>
         <p>
@@ -52,13 +55,68 @@
         <input type="number" name="decade" id="decade" min="1930" max="2020" step="10" value="1990">
         </p>
         <p>
-            <label for="tea">Favorite Tea:</label>
-            <select name="tea" id="tea">
+            <label for="beverages">Favorite Hot Beverage While Coding:</label>
+            <select name="beverages" id="beverages">
+                <optgroup label="Teas">
                 <option value="black tea">Black Tea</option>
-                <option value="black tea">Green Tea</option>
-                <option value="black tea">Earl Grey Tea</option>                
+                <option value="green tea">Green Tea</option>
+                <option value="grey tea" selected>Earl Grey Tea</option> 
+                </optgroup>   
+                <optgroup label="Coffees">
+                <option value="coffee">Regular Coffee</option>
+                <option value="latte">Latte</option>
+                </optgroup>
+                <option value="other">Other</option>
             </select>
             </p>
+<!--datalist input for a form, user can type input and have it autofill relative to the option values-->
+            <p>
+                <label for="language">Favorite Coding Language:</label>
+                <input type="text" name="language" id="language" list="code-languages-list">
+                <datalist id="code-languages-list">
+                <option value="JavaScript">
+                <option value="Python">
+                <option value="C">
+                <option value="Fortran">
+                <option value="Cobol">
+                <option value="Other">
+                </datalist>
+            </p>
+    </fieldset>
+    <br>
+<!--(Radio buttons)-->
+    <fieldset>
+        <legend>Favorite Music Genre?</legend>
+        <p>
+            <input type="radio" name="music" id="country" value="country">
+            <label for="country">Country</label>
+        </p>
+        <p>
+            <input type="radio" name="music" id="rock" value="rock">
+            <label for="rock">Rock</label>
+        </p>        
+        <p>
+            <input type="radio" name="music" id="classic" value="classic">
+            <label for="classic">Classic</label>
+        </p>              
+    </fieldset>    
+    <br>
+<!--(Checkbox) Multiple selections-->
+    <fieldset>
+        <legend>Do you have pets?</legend>
+        <p>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="lizard" value="lizard">
+            <label for="lizard">Lizard</label>
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="kangaroo" value="kangaroo">
+            <label for="kangaroo">Kangaroo</label>
+        </p>                
+    </fieldset>
     </form>
 </article>
 <br>
@@ -146,6 +204,9 @@ HTML classes IN CSS =   .className.paragraph-1 {}
 
 
 
+
+
+Organize forms into different sections when forms are long
 
 
 

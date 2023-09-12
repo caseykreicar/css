@@ -37,6 +37,8 @@ h4 {
     color: rgb(255,165,0);
 }
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||||||||||||||||*/
 #paragraphExample01 {
     color: rgb(0,0,200);
     font-size: 20px;
@@ -44,27 +46,32 @@ h4 {
     text-align: right;
 }
 
-#tableOfContents {
-    color: rgb(0,200,0);
-    font-size: 30;
-    outline: 2px dashed;
-    padding: 50px;
-}
-
-#tableOfContentsBox {
-    outline: 1px dotted;
-}
-
 #testListItem {
     outline: 1px dotted;
     margin-right: 50%;
     text-align: center;
+}/*||||||||||||||||||||||||||||*/
+/*|||||||  FORM SECTION  ||||||*/
+/*||||||||||||||||||||||||||||*/
+#inputForm {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: 2px dotted;
+    font-size: 10px;
+    font-weight: 999;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 66.6%;
+    padding-right: .5rem;
 }
 
+
+/*||||||||||||||||||||||||||||*/
+/*||||  TABLE SECTION  |||||||*/
+/*||||||||||||||||||||||||||||*/
 .scheduleTable {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid rgb(0,0,0);
+    border: 2px solid rgb(0,0,0);
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 1.0rem;
@@ -78,16 +85,20 @@ h4 {
     background-color: rgb(140,140,185);
     font-size: 20px;
 }
+/*||||||||||||||||||||||||||||*/
 
-#inputForm {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    outline: 2px dotted;
-    font-size: 10px;
-    font-weight: 999;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 35%
+/*||||||||||||||||||||||||||||*/
+#tableOfContentsBox {
+    outline: 1px dotted;
 }
+
+#tableOfContents {
+    color: rgb(0,200,0);
+    font-size: 30;
+    outline: 2px dashed;
+    padding: 50px;
+}
+/*||||||||||||||||||||||||||||*/
 
 
 /*
