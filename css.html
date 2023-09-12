@@ -30,6 +30,7 @@
 <article id="contact">
     <h5>Enter Login:</h5>
     <form action="https://httpbin.org/get" id="inputForm" method="get">
+        <img id="sloth" src="./sloth-photo-1170x780.jpg" title="Tell us about yourself">
         <fieldset>
             <legend>Info about You</legend>
         <p>
@@ -115,7 +116,11 @@
         <p>
             <input type="checkbox" name="pets" id="kangaroo" value="kangaroo">
             <label for="kangaroo">Kangaroo</label>
-        </p>                
+        </p>
+        <p>
+            <input type="checkbox" name="pets" id="sloth" value="sloth">
+            <label for="sloth">Sloth</label>        
+        </p>                               
     </fieldset>
     </form>
 </article>
@@ -149,6 +154,80 @@
             <td>Learn HTML, CSS, JS</td>
         </tr>
     </table>
+</article>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article>
+<h3>Restaurant Menu:</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--inspired by demolition coffee's menu Petersburg, VA-->
+<section class="menu">
+<div class="menu-text">
+<h1 id="menuHeader">COFFEE</h1>
+<table id="coffeeMenu">
+<th >Drip Coffee</th>
+<td>$2.5/2.75/3.25</td>
+<th>Cold Brew</th>
+<td>$3.75</td>
+<th>Dirty Chai</th>
+<td>$5.25</td>
+<tr></tr>
+<td>8/12/16oz</td>
+<td></td>
+<td>flash brewed</td>
+<td></td>
+<td>expresso + 10oz milk +house made chai - hot/iced/frozen</td>
+<tr></tr>
+<th>Fast Forward</th>
+<td></td>
+<th> Americano</th>
+<td>$3.5</td>
+
+</table>
+<h1 id="menuHeader">TEA</h1>
+<table id="coffeeMenu">
+<th>Roots Chai</th>
+<td>$3.25</td>
+<th>Refresh</th>
+<td>$3.25</td>
+<th>Sunshine</th>
+<td>$3.25</td>
+<tr></tr>
+<td>Spiced blend with notes of cinnamon, ginger, & nutmeg.</td>
+<td></td>
+<td>A cool herbal blend that stimulates the taste buds. Notes of fresh mint and lavender.</td>
+<tr></tr>
+<th>Easy Rise</th>
+<td>$3.25</td>
+<th>Open Heart</th>
+<td>$3.25</td>
+<th>Tulsi Green</th>
+<td>$3.25</td>
+<tr></tr>
+<td>Uplifting blend with notes of peppermint & lemongrass.</td>
+<tr></tr>
+
+
+
+
+</table>
+
+
+</div>
+<img id="menuImage" src="./menu.png">
+
+</section>
+
 </article>
 <br>
 <br>
@@ -202,7 +281,16 @@ HTML classes IN HTML=   <p class="className paragraph-1">a child of the classNam
 HTML classes IN CSS =   .className.paragraph-1 {}
 
 
+UNIVERSAL Selector:    * {}
+TYPE Selector:         h1, h2, h3 {}
+CLASS slector:         .note {}
+ID selector:           #introduction {}
 
+
+CHILD selector:             li>a {}
+DESCENDANT selector:        p a {}
+ADJACENT SIBLING selector:  h1+p {}
+GENERAL SIBLING selector:   h1~p {}
 
 
 
