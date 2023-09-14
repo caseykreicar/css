@@ -64,14 +64,28 @@ h4 {
 #inputForm {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     outline: 2px dotted;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 999;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 66.6%;
-    padding-right: .5rem;
+    padding-right: 1.5rem;
 }
 
+.submitButton {
+    position: absolute;
+    background-color: rgb(235,165,0);
+    font-weight: 600;
+}
+
+.submitButton.secure {
+    background-color: rgb(0,205,0);
+}
+
+#resetButton {
+    position: absolute;
+    left: 80%;
+}
 
 /*||||||||||||||||||||||||||||*/
 /*||||  TABLE SECTION  |||||||*/

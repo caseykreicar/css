@@ -12,9 +12,10 @@
                 <h4>This web page demonstrates basic css </h4>
             </header>
             <h3>Color:</h3>
+            <p id="topic-1-css"></p>
             <!--each span element has a specific class that all inherit the same font size, however each letter has a different color delcared-->
             <span class="letter red">C</span><span class="letter blue">O</span><span class="letter yellow">L</span><span class="letter orange">O</span><span class="letter green">R</span>
-            <p id="topic-1-css"></p>
+
             <p id="paragraphExample01">Hi there! This is an example of using an id attribute with the paragraph element</p>
 <br>
 <br>
@@ -29,6 +30,7 @@
 <h3>Form Input:</h3>
 <article id="contact">
     <h5>Enter Login:</h5>
+    <!--get method is NOT SECURE, info input by user will show over url and http-->
     <form action="https://httpbin.org/get" id="inputForm" method="get">
         <img id="sloth" src="./sloth-photo-1170x780.jpg" title="Tell us about yourself">
         <fieldset>
@@ -122,6 +124,18 @@
             <label for="sloth">Sloth</label>        
         </p>                               
     </fieldset>
+    <br> 
+    <!--NEVER SEND SENSITIVE INFO WITH A GET REQUEST-->
+    <button class="submitButton" type="submit">Submit Form (info not secure, input in url)</button>
+    <br>
+    <br>
+    <br>
+    <!--SECURE WAY TO SUBMIT FORM INFORMATION (FORMMETHOD=post)-->
+    <button class="submitButton secure" formaction="https://httpbin.org/post" formmethod="post">Post Submit (doesn't show input in url)</button>
+    <br>
+    <br>
+    <br>
+    <button id="resetButton" type="reset">Reset Form</button>
     </form>
 </article>
 <br>
@@ -242,14 +256,14 @@
 <div id="tableOfContentsBox">
 <ul>
 <p id="tableOfContents" title="this is intended to look like $h!t for the purpose of demonstrating boxes around html elements">Table of Contents:</p>
-<li><a href="topic-1-css">Color</a></li>
-<li><a href="topic-2-css">Text</a></li>
-<li><a href="topic-3-css">Boxes</a></li>
-<li><a href="topic-4-css">Lists, Tables, Forms</a></li>
-<li><a href="topic-5-css">Layout</a></li>
-<li><a href="topic-6-css">Images</a></li>
-<li id="testListItem"><a href="topic-7-css">test</a></li>
-<li><a href="topic-8-css">Blank</a></li>
+<li><a href="#topic-1-css">Color</a></li>
+<li><a href="#topic-2-css">Text</a></li>
+<li><a href="#topic-3-css">Boxes</a></li>
+<li><a href="#topic-4-css">Lists, Tables, Forms</a></li>
+<li><a href="#topic-5-css">Layout</a></li>
+<li><a href="#topic-6-css">Images</a></li>
+<li id="testListItem"><a href="#topic-7-css">test</a></li>
+<li><a href="#topic-8-css">Blank</a></li>
 </ul>
 </div>
 
