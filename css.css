@@ -207,4 +207,57 @@ SELECTOR
               |
          DECLARATION
 
+
+
+
+UNIVERSAL Selector:    * {}
+TYPE Selector:         h1, h2, h3 {}
+CLASS slector:         .note {}
+ID selector:           #introduction {}
+
+
+CHILD selector:             li>a {}
+DESCENDANT selector:        p a {}
+ADJACENT SIBLING selector:  h1+p {}
+GENERAL SIBLING selector:   h1~p {}
+
+CSS Rules Cascade: 
+
+* {                    <------- targets all elements on the page
+
+}
+
+i {
+    color:green
+}
+
+i {
+    color: red         <-------since this comes after it becomes the rule eventhough a rule precedes this one for the same element
+}
+
+b {
+    color: pink
+}
+
+p b {
+    color: blue !important;      <--------since this is declaration is marked important it will take precedent over the succeeding rule
+}
+
+p b {
+    color: violet;
+}
+
+
+
+HTML NOTES:
+
+Multiple Identifiers (ie... class and classes) with inheritance:
+
+HTML class IN HTML=   <p class="className">a unique paragraph with class attribute</p>
+HTML class IN CSS =   .className
+
+HTML classes IN HTML=   <p class="className paragraph-1">a child of the className paragraph class</p>
+HTML classes IN CSS =   .className.paragraph-1 {}
+
+
 */
