@@ -15,6 +15,7 @@ h4 {
 /*the letter class declares a font, each class below (ie..   .red, .blue, .yellow  etc..) inherits this font as well but also delcares different color*/
 .letter {
     font-size: 70px;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
 }
 
 .letter.red {
@@ -106,6 +107,10 @@ h4 {
 .scheduleTable.header {
     background-color: rgb(140,140,185);
     font-size: 20px;
+    font-weight: 950;
+    color: rgb(255,255,255);
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+    padding: 4px;
 }
 /*||||||||||||||||||||||||||||*/
 
@@ -124,41 +129,60 @@ h4 {
 /*||||||||   MENU     ||||||||*/
 /*||||||||||||||||||||||||||||*/
 
+details {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
 #menuImage {
     box-shadow: 0 4px 8px rgb(0,0,2), 0 6px 20px rgb(0,0,3);
-    margin-right: 5%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 1px
 }
 
 .menu {
-    height: 80vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2px;
+    padding: 6px;
     outline: 1px dotted;
   }
   
   .menu-text {
-    padding: 10px;
-    margin-bottom: 60px;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 40px;
-    margin-right: 5px;
-
+    margin-right: 40px;
+    padding-right: 80px;
+    outline: 1px dotted;
   }
 
   #menuHeader {
-    font-size: 60px;
+    font-size: 46px;
     color: rgb(255,0,0);
-    font-weight: 10;
-    margin-left: 400px;
+    font-weight: 18;
+    margin-left: 450px;
     margin-right: 5px;
-    padding: 10px;
+    padding-top: 6px;
     text-shadow: 0 1px 2px rgb(0,0,2), 0 2px 6px rgb(0,0,3);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
+
+  .coffeeMenu, tr {
+    padding: 2px;
+    text-align: left;
+  }
+
+  .coffeeMenu, th, td {
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
 
 /*||||||||||||||||||||||||||||*/
 

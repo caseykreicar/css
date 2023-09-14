@@ -8,6 +8,7 @@
             <title>CSS basic overview</title>
         </head>
         <body>
+            <p id="topic-navigation-test"></p>
             <header>
                 <h4>This web page demonstrates basic css </h4>
             </header>
@@ -27,6 +28,8 @@
 <br>
 <br>
 <br>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<p id="topic-mini-projects"></p>
 <h3>Form Input:</h3>
 <article id="contact">
     <h5>Enter Login:</h5>
@@ -142,6 +145,7 @@
 <br>
 <br>
 <br>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
 <h3>Schedule Table:</h3>
 <article id="scheduleTable">
     <table class="scheduleTable">
@@ -176,19 +180,22 @@
 <br>
 <br>
 <br>
-<article>
-<h3>Restaurant Menu:</h3>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<h3>Short Restaurant Breakfast Beverage Menu:</h3>
+<article id="menu">
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-<!--inspired by demolition coffee's menu Petersburg, VA-->
+<!--inspired by/menu items borrowed from demolition coffee's menu Petersburg, VA-->
 <section class="menu">
 <div class="menu-text">
 <h1 id="menuHeader">COFFEE</h1>
-<table id="coffeeMenu">
+<details>Whole milk is standard - choose oat or almond milk for .80&cent; more</details>
+<br>
+<table class="coffeeMenu">
 <th >Drip Coffee</th>
 <td>$2.5/2.75/3.25</td>
 <th>Cold Brew</th>
@@ -197,20 +204,67 @@
 <td>$5.25</td>
 <tr></tr>
 <td>8/12/16oz</td>
-<td></td>
+<td>&nbsp;</td>
 <td>flash brewed</td>
-<td></td>
+<td>&nbsp;</td>
 <td>expresso + 10oz milk +house made chai - hot/iced/frozen</td>
 <tr></tr>
 <th>Fast Forward</th>
-<td></td>
+<td>&nbsp;</td>
 <th> Americano</th>
 <td>$3.5</td>
+<th>Wrecking Ball</th>
+<td>$6</td>
+<tr></tr>
+<td>light bodied + balanced, nutty + sweet</td>
+<td>&nbsp;</td>
+<td>espresso + water</td>
+<td>&nbsp;</td>
+<td>vanilla ice cream + chocolate sauce + espresso</td>
+<tr></tr>
+<th>Big Trouble</th>
+<td>&nbsp;</td>
+<th>Macchiato</th>
+<td>$3</td>
+<th>Dirty Banana</th>
+<td>$6.5</td>
+<tr></tr>
+<td>caramel +nutty + round</td>
+<td>&nbsp;</td>
+<td>espresso + hint of milk</td>
+<td>&nbsp;</td>
+<td>banana + caramel sauce + almond milk + espresso</td>
+<tr></tr>
+<th>Decaf</th>
+<td>$2.75</td>
+<th>Cappuccino</th>
+<td>$4</td>
+<th>Caramel Cookie Crunch</th>
+<td>$6.5</td>
+<tr></tr>
+<td>12oz</td>
 <td></td>
-
+<td>espresso + 2oz steamed milk + foam</td>
+<td>&nbsp;</td>
+<td>vanilla ice cream + chocolate chip cookie + caramel sauce + espresso</td>
+<tr></tr>
+<th>Cortada</th>
+<td>$3.5</td>
+<th>Mocha</th>
+<td>$4.75</td>
+<th>Latte</th>
+<td>$4.5</td>
+<tr></tr>
+<td>espresso + 2oz milk</td>
+<td>&nbsp;</td>
+<td>espresso + 10oz milk - hot/iced/frozen</td>
+<td>&nbsp;</td>
+<td>espresso +10oz milk + chocolate sauce - hot/iced/frozen</td>
 </table>
+<br>
 <h1 id="menuHeader">TEA</h1>
-<table id="coffeeMenu">
+<details>We proudly serve Roots Holistic tea blends. Handcrafted in Richmond.</details>
+<table class="coffeeMenu">
 <th>Roots Chai</th>
 <td>$3.25</td>
 <th>Refresh</th>
@@ -219,8 +273,10 @@
 <td>$3.25</td>
 <tr></tr>
 <td>Spiced blend with notes of cinnamon, ginger, & nutmeg.</td>
-<td></td>
-<td>A cool herbal blend that stimulates the taste buds. Notes of fresh mint and lavender.</td>
+<td>&nbsp;</td>
+<td>A cool herbal blend that stimulates the taste buds & calms the system. Notes of fresh mint and lavender.</td>
+<td>&nbsp;</td>
+<td>An herbal blend with notes of citrus. Tart & naturally sweet with a beautiful bright pink color.</td>
 <tr></tr>
 <th>Easy Rise</th>
 <td>$3.25</td>
@@ -230,12 +286,14 @@
 <td>$3.25</td>
 <tr></tr>
 <td>Uplifting blend with notes of peppermint & lemongrass.</td>
+<td>&nbsp;</td>
+<td>A floral blend with subtle notes of lavender & rose.</td>
+<td>&nbsp;</td>
+<td>An aromatic blend with subtle notes of sweet mint & basil.</td>
 <tr></tr>
-
-
-
-
 </table>
+<br>
+
 
 
 </div>
@@ -253,6 +311,7 @@
 <br>
 <br>
 <br>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
 <div id="tableOfContentsBox">
 <ul>
 <p id="tableOfContents" title="this is intended to look like $h!t for the purpose of demonstrating boxes around html elements">Table of Contents:</p>
@@ -262,8 +321,11 @@
 <li><a href="#topic-4-css">Lists, Tables, Forms</a></li>
 <li><a href="#topic-5-css">Layout</a></li>
 <li><a href="#topic-6-css">Images</a></li>
-<li id="testListItem"><a href="#topic-7-css">test</a></li>
-<li><a href="#topic-8-css">Blank</a></li>
+<li><a href="#topic-7-css">blank</a></li>
+<li><a href="#topic-8-css">blank</a></li>
+<li><a href="#topic-9-css">blank</a></li>
+<li id="testListItem"><a href="#topic-navigation-test">test to top of page</a></li>
+<li><a href="#topic-mini-projects">Additional Mini Projects</a></li>
 </ul>
 </div>
 
@@ -277,7 +339,7 @@
 
 
 
-<!--###################################################################################-->
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
 <!--                 NOTES:
 
 Unique element Identifier (1):
