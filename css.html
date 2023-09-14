@@ -12,8 +12,10 @@
             <header>
                 <h4>This web page demonstrates basic css </h4>
             </header>
-            <h3>Color:</h3>
             <p id="topic-1-css"></p>
+            <h3>Color:</h3>
+            <br>
+            <p>text color:</p>
             <!--each span element has a specific class that all inherit the same font size, however each letter has a different color delcared-->
             <span class="letter red">C</span><span class="letter blue">O</span><span class="letter yellow">L</span><span class="letter orange">O</span><span class="letter green">R</span>
 
@@ -23,12 +25,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p>ph scale:
+<p>ph scale (color using a table):
     <div class="phScaleContainer">
         <table class="phScale">
             <tr></tr>
@@ -69,7 +66,8 @@
 <br>
 <br>
 <br>
-<br>
+<p id="topic-2-css"></p>
+<h3>Text:</h3>
 <br>
 <br>
 <br>
@@ -79,7 +77,7 @@
 <p id="topic-mini-projects"></p>
 <h3>Form Input:</h3>
 <article id="contact">
-    <h5>Enter Login:</h5>
+    <h5>Submit Form:</h5>
     <!--get method is NOT SECURE, info input by user will show over url and http-->
     <form action="https://httpbin.org/get" id="inputForm" method="get">
         <img id="sloth" src="./sloth-photo-1170x780.jpg" title="Tell us about yourself">
@@ -175,8 +173,8 @@
         </p>                               
     </fieldset>
     <br> 
-    <!--NEVER SEND SENSITIVE INFO WITH A GET REQUEST-->
-    <button class="submitButton" type="submit">Submit Form (info not secure, input in url)</button>
+    <!--NEVER SEND SENSITIVE INFO WITH A GET REQUEST (form action method attribute value at beginning of this form)-->
+    <button class="submitButton" type="submit">Submit Form (info not secure, input included in url)</button>
     <br>
     <br>
     <br>
@@ -218,6 +216,12 @@
             </td>
             <td>Learn HTML, CSS, JS</td>
         </tr>
+        <tr>
+        <td colspan="2">*when writing code, be <b><i>DRY</i></b> (<b>D</b>on't <b>R</b>epeat <b>Y</b>ourself)</td>
+       </tr>
+       <tr>
+        <td colspan="2">optional: the same can be applied to your jokes as well (however use discretion)</td>
+       </tr>
     </table>
 </article>
 <br>
@@ -257,7 +261,7 @@
 <td>expresso + 10oz milk +house made chai - hot/iced/frozen</td>
 <tr></tr>
 <th>Fast Forward</th>
-<td>&nbsp;</td>
+<td class="priceFluctuates">*ask for price</td>
 <th> Americano</th>
 <td>$3.5</td>
 <th>Wrecking Ball</th>
@@ -270,7 +274,7 @@
 <td>vanilla ice cream + chocolate sauce + espresso</td>
 <tr></tr>
 <th>Big Trouble</th>
-<td>&nbsp;</td>
+<td class="priceFluctuates">*ask for price</td>
 <th>Macchiato</th>
 <td>$3</td>
 <th>Dirty Banana</th>
@@ -409,10 +413,10 @@ HTML classes IN CSS =   .className.paragraph-1 {}
 *Organize forms into different sections when forms are long
 
 
+Check CSS rules of specificity using Google Chrome Inspect/Dev Tool and hover over an element, it will show you all CSS declarations applied
 
 
-
-
+Be DRY (Don't Repeat Yourself)
 
 
 

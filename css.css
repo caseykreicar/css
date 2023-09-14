@@ -14,6 +14,14 @@ h4 {
 p span {
     color: rgb(255,0,0);
     text-transform: uppercase;
+    /*border is drawn inside the element's border*/
+    border: 1px solid rgb(0,0,0);
+    /*ouline is drawn outside the element's border, however is still within the margin*/
+    outline: 2px dashed;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .phScaleContainer {
@@ -35,10 +43,6 @@ p span {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(240,240,200)
-}
-
-.phScaleContainer {
-
 }
 
 .phScale {
@@ -284,6 +288,9 @@ details {
     padding-left: 10px;
   }
 
+  .priceFluctuates {
+    background-color: rgb(255,205,205)
+  }
 
 /*||||||||||||||||||||||||||||*/
 
