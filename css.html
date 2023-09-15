@@ -67,16 +67,48 @@
     </div>
 </p>
 <br>
-<br>
-<br>
+
 <br>
 <p id="topic-2-css"></p>
 <h3>Text:</h3>
 <br>
+<p>typface terminology:</p>
+<p><b>System-UI:</b><span class="systemUiText">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+<p><b>Ariel:</b> <span class="arielText">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+<p><b>Times New Roman:</b> <span class="timesNewRomanText">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>
+<br>
+<p>weight:</p>
+<table class="textExampleTable">
+    <td>Text Weight:</td>
+    <td class="textThree">100</td>
+    <tr>
+        <td>Text Weight:</td>
+        <td class="textOne">600</td>
+    </tr>
+    <tr>
+        <td>Text Weight:</td>
+        <td class="textTwo">1000</td>
+    </tr>
+</table>
+<p>size:</p>
+<table class="textExampleTable">
+    <td>Text Size:</td>
+    <td class="textSizeOne">50%</td>
+    <tr>
+        <td>Text Size:</td>
+        <td class="textSizeTwo">200%</td>
+    </tr>
+    <tr>
+        <td>Text Size:</td>
+        <td class="textSizeThree">500%</td>
+    </tr>
+</table>
+<p>*note: you shouldn't use <span class="underline">absolute</span> units for font size ie... 32px, and you wouldn't necessarily use percentages on fonts either which are <span class="underline">relative</span> to another quantity.</p>
+<br>
+
 <br>
 <br>
-<br>
-<br>
+
 
 
 
@@ -91,7 +123,7 @@
 <p id="topic-mini-projects"></p>
 <h3>Form Input:</h3>
 <article id="contact">
-    <h5>Submit Form:</h5>
+    <p>Submit Form:</p>
     <!--get method is NOT SECURE, info input by user will show over url and http-->
     <form action="https://httpbin.org/get" id="inputForm" method="get">
         <img id="sloth" src="./sloth-photo-1170x780.jpg" title="Tell us about yourself">
@@ -202,6 +234,12 @@
 </article>
 <br>
 <br>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<h3>CSS variables:</h3>
+<br>
+<p>var() function:</p>
+<h5>this h6 header uses a var (<i>--name, value</i>) function to apply CSS styling </h5>
+
 <br>
 <br>
 <!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
@@ -362,7 +400,7 @@
 
 
 </div>
-<img id="menuImage" src="./menu.png">
+<img id="menuImage" src="./menu.png" title="Menu items for Demolition Coffee located in Petersburg, VA">
 
 </section>
 

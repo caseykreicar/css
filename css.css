@@ -1,16 +1,35 @@
 /* This document demonstrates CSS or Cascading Style Sheets formatting in association with the css.html file */
 /* Comments Goe Here Between These Outside Marks */
 
+
+/*||||||||||||||||||||||||||||||||*/
+/*||||  VARIABLE FUNCTION  |||||||*/
+/*|||||||||||||||||||||||||||||||||*/
+:root {
+    --courier: 'Courier New', Courier, monospace;
+    --black: rgb(0,0,0);
+    --white: rgb(255,255,255);
+}
+/*|||||||||||||||||||||||||||||||||||||||||||||*/
+
 h4 {
     color: rgb(40,40,40);
     background-color: rgb(230,230,230);
     padding: 80px;
+    /*font-family needs to have the font style installed on the computer locally*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     text-align: center;
     outline: 2px dashed;
 }
 
+h5 {
+    /*Variable Functions Applied*/
+    font-family: var(--courier);
+    background-color: var(--black);
+    color: var(--white);
+}
+/*|||||||||||||||||||||||||||||||||||||COLOR|||||||||||||||||||||||||||||||||||||||||||*/
 #paragraphExample01 span {
     color: rgb(255,0,0);
     text-transform: uppercase;
@@ -57,7 +76,6 @@ h4 {
     color: blue;
 }
 
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .phScaleContainer {
     /*margins affect outline size*/
     outline: 2px dashed;
@@ -150,7 +168,6 @@ h4 {
 .phScale.fourteen {
     background-color: rgb(53,122,175);
 }
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*the letter class declares a font, each class below (ie..   .red, .blue, .yellow  etc..) inherits this font as well but also delcares different color*/
 .letter {
     font-size: 70px;
@@ -176,9 +193,68 @@ h4 {
 .letter.orange {
     color: rgb(255,165,0);
 }
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||TEXT||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-/*||||||||||||||||||||||||||||*/
+.systemUiText {
+    font-family: system-ui;
+}
+
+.verdanaText {
+    font-family: verdana;
+}
+
+.arielText {
+    font-family: arial;
+}
+
+.timesNewRomanText {
+    font-family: 'Times New Roman';
+}
+
+
+.textExampleTable {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.textExampleTable td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+
+.textThree {
+    font-weight: 100;
+}
+
+.textOne {
+    font-weight: 600;
+}
+
+.textTwo {
+    font-weight: 1000;
+}
+
+.textSizeOne {
+    font-size: 50%;
+}
+
+.textSizeTwo {
+    font-size: 200%;
+}
+
+.textSizeThree {
+    font-size: 500%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*id selectors ie..... #paragraphExample01 in this instance are not commonly used in CSS, these are more for specific use cases within HTML and JS*/
 #paragraphExample01 {
     color: rgb(0,0,200);
@@ -206,6 +282,7 @@ h4 {
 }
 
 #inputForm {
+    /*order of preference for font styles/typeface ie....font-family values*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     outline: 2px dotted;
     font-size: 11px;
@@ -410,5 +487,9 @@ HTML class IN CSS =   .className
 HTML classes IN HTML=   <p class="className paragraph-1">a child of the className paragraph class</p>
 HTML classes IN CSS =   .className.paragraph-1 {}
 
+
+Always use fallback fonts
+
+You can use pt instead of px for "printer-friendly" versions of pages
 
 */
