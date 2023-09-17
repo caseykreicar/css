@@ -251,6 +251,61 @@ h5 {
     text-decoration: underline;
 }
 
+.poppinsFont {
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+.poppinsFont i {
+    font-weight: 600;
+}
+
+.decorationTextOverline {
+    text-decoration: overline;
+}
+
+.decorationTextLineThrough {
+    text-decoration: line-through;
+}
+
+.decorationTextUnderline {
+    text-decoration: underline;
+}
+
+.decorationTextBlink {
+    animation: blinker 1s linear infinite;
+    font-weight: 600;
+}
+
+@keyframes blinker {
+    50% {
+       opacity: 0; 
+    }
+}
+
+.lineHeightPositive {
+    line-height: 3.5em;
+}
+
+.lineHeightNegative {
+    line-height: .01em;
+}
+
+.letterSpacing-1 {
+    letter-spacing: 1.5em;
+}
+
+.letterSpacing-2 {
+    letter-spacing: 3em;
+    text-decoration: overline;
+}
+
+.wordSpacing {
+    word-spacing: 1em;
+}
+
+
+
 
 
 
