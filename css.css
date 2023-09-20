@@ -27,11 +27,18 @@ h4 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     text-align: center;
-    outline: 2px dashed;
+    outline: 2px solid;
 }
 
 h3 {
+    color: rgb(40,40,40);
+    background-color: rgb(230,230,230);
+    padding: 20px;
+    /*font-family needs to have the font style installed on the computer locally*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    text-align: left;
+    outline: 1px dashed;
 }
 
 h5 {
@@ -40,7 +47,7 @@ h5 {
     background-color: var(--black);
     color: var(--white);
 }
-/*|||||||||||||||||||||||||||||||||||||COLOR|||||||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||BOXES||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #paragraphExample01 span {
     color: rgb(255,0,0);
     text-transform: uppercase;
@@ -382,12 +389,6 @@ h5 {
     color: rgb(0,0,255)
 }
 
-
-
-
-
-
-
 /*||||||||||||||||||||||||||||||||||||||||||||ANIMATE TEXT or ROTATE TEXT ELEMENTS IN AND OUT|||||||||||||||||||||||||||||||||||||||||||||||*/
 
 .rotatingText { 
@@ -454,10 +455,6 @@ h5 {
     }
   }*/
 
-
-
-
-
   @keyframes rotate-text-up { 
     0% {
       transform: translate3d(0, 80px, 0);
@@ -487,7 +484,6 @@ h5 {
     }
   }
   
-
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||ROTATING IMAGE||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*see if you can make the rotating image the entire background?*/
 .rotatingImage {
@@ -503,6 +499,40 @@ h5 {
       transform: rotate(359deg);
     }
   }
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||BOXES||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -673,10 +703,7 @@ details {
     background-color: rgb(255,205,205)
   }
 
-/*||||||||||||||||||||||||||||*/
-
-/*||||||||||||||||||||||||||||*/
-
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||NOTES:||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /*
 ------------CSS Rule Structure-------------
@@ -736,6 +763,17 @@ p b {
     color: violet;
 }
 
+Attribute Selectors:
+                                                                              ie..... <p value="animal"><p>
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|__(SELECTOR)__|__(Meaning)____|_____(Example)____|________________________________________Explanation__________________________________________________________________|
+|EXISTENCE     |      []       |    p[animal]     | Targets any <p> element with an attribute called animal                                                             |
+|EQUALITY      |      [=]      | p[animal="dog    | Targets any <p> element with an attribute called animal with value of dog                                           |
+|SPACE         |      [~=]     | p[animal~="dog"] | Targets any <p> element with an attribute called animal with a list of space-separated words one of which being dog |
+|PREFIX        |      [^=]     | p[attr^"d"]      | Targets any <p> element with an attribute whose value begins with the letter "d"                                    |
+|SUBSTRING     |      [*=]     | p[attr*"do"]     | Targets any <p> element with an attribute whose value contains the letters "do"                                     |
+|SUFFIX        |      [$=]     | p[attr$"g"]      | Targets any <p> element with an attribute whose value ends with the letter "g"                                      |
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
 HTML NOTES:
@@ -747,7 +785,6 @@ HTML class IN CSS =   .className
 
 HTML classes IN HTML=   <p class="className paragraph-1">a child of the className paragraph class</p>
 HTML classes IN CSS =   .className.paragraph-1 {}
-
 
 Always use fallback fonts
 
