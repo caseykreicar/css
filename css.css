@@ -514,11 +514,21 @@ h5 {
 }
 
 
-.box-02 tr,td,th {
+.box-02 tr {
     /*easy way to outline a table*/
     outline: solid;
+}
+
+.box-02 th {
+    /*easy way to outline a table*/
+    outline: solid;
+}
+
+.box-02 td {
+    /*easy way to outline a table*/
     min-width: 10px;
     max-width: 600px;
+    outline: solid;
 }
 
 
