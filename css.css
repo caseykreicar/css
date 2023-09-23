@@ -568,7 +568,35 @@ h5 {
     overflow: scroll;
 }
 
+.box-06 #margin {
+    background-color: yellow;
+    margin: 10px;
+    padding:300px;
+    width: 900px;
+    font-weight: 800;
+}
 
+.box-06 #border {
+    background-color: red;
+    margin: 10px;
+    padding: 200px;
+    font-weight: 800;
+}
+
+.box-06 #padding {
+    background-color: cyan;
+    margin: 10px;
+    padding: 100px;
+    font-weight: 800;
+}
+
+.box-06 #content {
+    background-color: black;
+    color: white;
+    margin: 50px;
+    padding: 30px;
+    font-weight: 800;
+}
 
 
 
