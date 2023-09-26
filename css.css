@@ -665,6 +665,51 @@ h5 {
     text-align: center;
 }
 
+.borderStyle-03 {
+/*                      source | slice | width | outset | repeat                              */
+border-image: url("./menu.png") 57 53 / 40px 50px / 1rem round stretch;
+/*border-image-width: 100px;
+border-image-height: 100px;*/
+padding: 100px;
+width: 1600px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+.borderStyle-04 {
+    border-image: linear-gradient(red, blue) 20 / 30px;    
+    font-weight: 1000;
+    padding: 100px;
+}
+
+
+/*   example of inheritance with classes   */
+
+.boxShadow {
+    border-image: linear-gradient(green, orange) 100 / 50px;  
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 1em 1em 10em black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.boxShadow.one {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /*third value is blur distance*/
+    box-shadow: 15px 15px 5px #777777;
+}
+
+.boxShadow.two {
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 1em 1em 10em blue;
+}
+
 
 
 
