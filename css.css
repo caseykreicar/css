@@ -707,10 +707,47 @@ margin-left: auto;
 .boxShadow.two {
     width: 200px;
     height: 200px;
-    box-shadow: inset 1em 1em 10em blue;
+    box-shadow: inset 6em 1em 10em darkblue;
+    text-align: center;
+    text-shadow: -12px -12px 3px black;
 }
 
+.roundedCorners {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 160px;
+    border: double 1em transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, green, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    box-shadow: inset 1em 1em 3em black;
+}
 
+.triangle {
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 0; 
+    height: 0; 
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    border-left: 65px solid yellowgreen;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    border: solid 10px blueviolet;
+    border-radius: 100px;
+    background-color: blueviolet;
+    font-weight: 900;
+
+}
 
 
 
