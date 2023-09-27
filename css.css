@@ -782,7 +782,9 @@ margin-left: auto;
 }
 
 .auction {
-    outline: 1px solid;
+    border: 6px solid orange;
+    outline: 6px solid red;
+    background-color: rgb(255,255,0);
     padding: 10px;
     width: 625px;
 }
@@ -817,7 +819,61 @@ margin-left: auto;
     color: white;
 }
 
+.emptyTable-01 td {
+    width: 50px;
+    height: 50px;
+    outline: 1px black solid;
+    background-color: pink;
+}
 
+.emptyTable-02 td {
+    width: 50px;
+    height: 50px;
+    outline: 1px black solid;
+    empty-cells: hide;
+    background-color: lightblue;
+}
+
+.emptyTable-03 td {
+    width: 50px;
+    height: 50px;
+    outline: 1px black solid;
+    background-color: lightgreen;
+}
+
+.emptyTable-03 {
+    border-spacing: 10px;
+}
+
+.emptyTable-03 td:hover {
+    border: 1px black solid;
+}
+
+.emptyTable-04 td {
+    width: 50px;
+    height: 50px;
+    outline: 1px black solid;
+    background-color: lightsalmon;
+}
+
+.emptyTable-04 {
+    border-spacing: 20px;
+}
+
+.emptyTable-04 td:hover {
+    box-shadow: 0px 0px 8px black;
+}
+
+/*had to use an id here to put a background image in a form input (class wasn't working for some reason?)*/
+#emailLogo {
+    background-image: url("./emailLogo.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 4px 0px;
+    padding-left: 34px;
+    height: 29px;
+    border: 2px black solid;
+}
 
 
 
