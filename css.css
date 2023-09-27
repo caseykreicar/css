@@ -743,11 +743,89 @@ margin-left: auto;
     text-align: center;
     color: white;
     border: solid 10px blueviolet;
-    border-radius: 100px;
+    border-radius: 90px;
     background-color: blueviolet;
     font-weight: 900;
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||LISTS, TABLES, FORMS||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.societalNeeds {
+    list-style-type: upper-roman;
+}
+
+.circleBulletPoints {
+    list-style-type: circle;
+}
+
+.imageBulletPoints {
+    list-style-image: url("rotatingImage30x30.png");
+    margin: 20px;
 
 }
+
+.indentedBulletPoints {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 16px;
+}
+
+.listShorthand {
+    list-style: outside circle;
+    width: 60px;
+    height: 60px;
+    outline: 2px black solid;
+    margin: 40px 40px 40px 40px;
+    padding: 30px;
+    border-radius: 90px
+}
+
+.auction {
+    outline: 1px solid;
+    padding: 10px;
+    width: 625px;
+}
+
+.auction h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 5px yellow;
+    background-color: rgb(255,105,0);
+    border: 6px red solid;
+    border-radius: 30px;
+    border-style: inset;
+    width: 600px;
+    text-align: center;
+    padding: 8px;
+}
+
+.auction table {
+    width: 625px;
+}
+
+.auction th {
+    border-bottom: 2px black solid;
+    border-top: 1px grey solid;
+}
+
+.evenRow {
+    background-color: rgb(205,205,205);
+}
+
+.auction td:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
