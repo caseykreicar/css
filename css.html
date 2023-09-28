@@ -541,7 +541,55 @@
 <form action="http://example.php" method="post">
         <input id="emailLogo" type="text">
 </form>
-
+<br>
+<br>
+<p>styling fieldsets & legends:</p>
+<br>
+<form class="intakeForm" action="http://example.php" method="post">
+    <h2>Client Intake Form</h2>
+    <br>
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <label for="lastName">Last name:</label>
+        <input type="text" id="lastName" name="lastName">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender" value="gender">
+        <label for="other">Other</label>
+        <br>
+        <label for="address">Street Address:</label>
+        <input type="text" name="address" id="address">
+        <br>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state">
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" name="zipCode" id="zipCode">
+    </fieldset>
+    <fieldset>
+        <legend>SERVICE REQUEST</legend>
+        <label for="reasonForService">What is the reason for your visit today?</label>
+        <input type="text" name="reasonForService" id="reasonForService" size="60">
+        <br>
+        <label for="hearAboutUs">How did you hear about us?</label>
+        <input type="text" name="hearAboutUs" id="hearAboutUs" size="60">
+    </fieldset>
+    <fieldset>
+        <legend>SIGNATURE</legend>
+        <label for="signature">Signature:</label>
+        <input type="text" name="signature" id="signature">
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+    </fieldset>
+    <br>
+    <button class="submitForm" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+</form>
 
 
 
