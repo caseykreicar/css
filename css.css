@@ -47,7 +47,7 @@ h5 {
     background-color: var(--black);
     color: var(--white);
 }
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||BOXES||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| BOXES ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #paragraphExample01 span {
     color: rgb(255,0,0);
     text-transform: uppercase;
@@ -211,7 +211,7 @@ h5 {
 .letter.orange {
     color: rgb(255,165,0);
 }
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||TEXT||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| TEXT ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 .systemUiText {
     font-family: system-ui;
@@ -389,7 +389,7 @@ h5 {
     color: rgb(0,0,255)
 }
 
-/*||||||||||||||||||||||||||||||||||||||||||||ANIMATE TEXT or ROTATE TEXT ELEMENTS IN AND OUT|||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||ANIMATE TEXT or ROTATE TEXT ELEMENTS IN AND OUT||||||||||||||||||||||||||||*/
 
 .rotatingText { 
     align-items: center;
@@ -484,7 +484,7 @@ h5 {
     }
   }
   
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||ROTATING IMAGE||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||ROTATING IMAGE||||||||||||||||||||||||||||||||||||||||||||||*/
 /*see if you can make the rotating image the entire background?*/
 .rotatingImage {
     animation: rotation 4s infinite linear;
@@ -500,7 +500,7 @@ h5 {
     }
   }
 
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||BOXES||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| BOXES ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 #box-01 {
     width: 200px;
@@ -749,7 +749,7 @@ margin-left: auto;
 }
 
 
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||LISTS, TABLES, FORMS||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| LISTS, TABLES, FORMS ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 .societalNeeds {
     list-style-type: upper-roman;
@@ -951,6 +951,8 @@ margin-left: auto;
     float: right;
 }
 
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| LAYOUT ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
 .hoverOutline p:hover {
     outline: 1px solid red;
 }
@@ -959,9 +961,35 @@ margin-left: auto;
     outline: 1px solid black;
 }
 
+.layout:hover {
+    border: 1px solid black;
+}
+
+.layout p:hover {
+    outline: 1px solid red;
+}
 
 
+.layout.relative span {
+    position: relative;
+    left: 100px;
+    bottom: 18px;
+}
 
+.layout.relative span:hover {
+    outline: 2px solid blue;
+    font-size: 18px;
+}
+
+.layout.absolute span {
+    position: absolute;
+}
+
+.layout.absolute span:hover {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
 
 
 
@@ -1226,6 +1254,21 @@ Attribute Selectors:
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
+Positioning of Elements:  
+
+Normal Flow - 
+
+Relative - move element from normal flow by specified measurement ie... (x)pixels from original placement by top, bottom, left, right directions
+
+Absolute - other surrounding elements ignore the space this element normally is placed in
+
+Fixed - 
+
+Floating - 
+
+
+
+___________________________________________________________________________
 HTML NOTES:
 
 Multiple Identifiers (ie... class and classes) with inheritance:
@@ -1233,7 +1276,7 @@ Multiple Identifiers (ie... class and classes) with inheritance:
 HTML class IN HTML=   <p class="className">a unique paragraph with class attribute</p>
 HTML class IN CSS =   .className
 
-HTML classes IN HTML=   <p class="className paragraph-1">a child of the className paragraph class</p>
+HTML classes IN HTML=   <p class="className paragraph-1"> paragraph-1 is a child of the className paragraph class</p>
 HTML classes IN CSS =   .className.paragraph-1 {}
 
 Always use fallback fonts
