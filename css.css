@@ -1111,8 +1111,7 @@ margin-left: auto;
 }
 
 .sideBySide {
-    margin-top: 100px;
-    margin: 100px;
+    margin-bottom: 680px;
     margin-left: auto;
     margin-right: auto;
     border: 20px;
@@ -1140,11 +1139,51 @@ margin-left: auto;
     padding: 15px;
 }
 
+.createMargin {
+    margin-top: 100px;
+}
 
+.column.a {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
 
+.column.b {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
 
+.column.c {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
 
+.column.a:hover {
+    outline: 2px solid red;    
+}
 
+.column.b:hover {
+    outline: 2px solid red;    
+}
+
+.column.c:hover {
+    outline: 2px solid red;    
+}
+
+.column.d:hover {
+    outline: 2px solid red;    
+}
+
+.column.e:hover {
+    outline: 2px solid red;    
+}
+
+.column.f:hover {
+    outline: 2px solid red;    
+}
 
 
 
@@ -1418,8 +1457,31 @@ Fixed -
 
 Floating - 
 
-
-
+                                                      
+_|_________________________________________________960px - 1000px____________________________________________________|_      ___
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |  570px - 600px
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ |                                                                                                                   |        |
+ | __________________________________________________________________________________________________________________|       _|_
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
+ |                                                                                                                   |
 ___________________________________________________________________________
 HTML NOTES:
 
