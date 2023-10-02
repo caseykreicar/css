@@ -991,6 +991,158 @@ margin-left: auto;
     font-size: 18px;
 }
 
+/*.layout.fixed.paragraph {
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    margin: 0px;
+    outline: none 
+}
+*/
+
+.layout.floating span {
+    float: left;
+}
+
+.layout.floating span:hover {
+    outline: 2px solid blue;
+}
+
+.layout.zIndex span {
+    position: relative;
+    right: 10px;
+    top: 20px;
+}
+
+.layout.zIndex span:hover {
+    background-color: yellow;
+    color: grey;
+    font-size: 18px;
+}
+
+.layout.zIndex.bottom span:hover {
+    z-index: -5;
+    font-size: 24px;
+}
+
+.layout.zIndex.top span {
+    z-index: 5;
+}
+
+.stackedCircle {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.stackedCircle.one {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    border-radius: 360px;
+    opacity: 95% !important;
+}
+
+.stackedCircle.two {
+    position: relative;
+    top: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    border-radius: 360px;
+    opacity: 85% !important;
+}
+
+.stackedCircle.three {
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 360px;
+    opacity: 75% !important;
+}
+
+.stackedCircle.four {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-radius: 360px;
+    opacity: 65% !important;
+}
+
+.stackedCircle.five {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 360px;
+    opacity: 55% !important;
+}
+
+.stackedCircle.six {
+    position: relative;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 360px;
+    opacity: 45% !important;
+}
+
+.stackedCircle.six p {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 45% !important;
+}
+
+.stackedCircle:hover {
+    opacity: 100% !important;
+    cursor: pointer !important;
+}
+
+.sideBySide {
+    margin-top: 100px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    padding: 35px;
+    outline: 1px solid black;
+    height: 600px;
+}
+
+.sideBySide p {
+    border: 1px solid black;
+    background: lightblue;
+    width: 240px;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+}
+
+.sideBySide.noTouchRight {
+    outline: 4px solid black;
+    background: lightblue;
+    width: 240px;
+    height: 160px;
+    clear: both;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+
 
 
 

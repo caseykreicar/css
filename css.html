@@ -638,11 +638,104 @@
  </div>
 <br>
 <br>
-<p>fixed positioning:</p>
+<p>fixed positioning: <b>(THIS DEMOSTRATION IS COMMENTED OUT BECAUSE IT WOULD STAY IN VIEW THROUGHOUT THE ENTIRE PAGE OTHERWISE)</b> this CSS styling is used to keep an element on the page no matter where you scroll, although I assume this can be manipulated using JS to have a pixel/height limit or something so that that another section on the same page doesn't show this effect?</p>
 <br>
+<p>when you visit web pages where the background or some image stays in place but other elements move with scrolling I believe this positioning is probably used in some way</p>
+<br>
+<br>
+<!--
+<div class="layout fixed">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi inventore quibusdam molestiae explicabo voluptate aut necessitatibus ratione fugiat accusantium! Laborum quaerat exercitationem odio, nemo earum laboriosam consectetur debitis vitae officiis a fuga neque distinctio reiciendis suscipit. Ab, vitae eum excepturi sunt fuga suscipit porro ex ullam sapiente sequi cum odio cupiditate vero atque doloribus quia. Deleniti commodi rem exercitationem qui, necessitatibus fuga omnis sunt soluta nisi recusandae nesciunt cumque minus consectetur minima veniam beatae facilis esse itaque quae et aliquam! Ab tempore corrupti, quos necessitatibus provident dolore numquam adipisci vitae explicabo autem atque ea eaque placeat, perferendis sit. Architecto.</p> 
+     <p class="layout fixed paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nihil alias nobis. Reiciendis atque pariatur deleniti explicabo at reprehenderit quidem molestias error accusamus ipsam voluptate repellat blanditiis aspernatur debitis nemo laudantium iusto, modi cupiditate, quia dignissimos eaque maxime. Maiores velit cumque praesentium earum eos ipsam incidunt perferendis exercitationem ducimus, pariatur, eligendi quae quam fugiat repellendus obcaecati cupiditate commodi dignissimos dolore odio soluta facere corporis. Quis voluptatem temporibus odio vero cumque error repellat sed! Sed cupiditate saepe perspiciatis odio animi tempora, minima illum tempore maxime distinctio. Accusamus, expedita tempore. Doloribus nobis autem quia eos doloremque eligendi provident iure porro sunt impedit!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora iusto recusandae. Assumenda numquam sapiente voluptatem molestiae dicta est fugit modi nobis porro dolor unde, nemo earum error, exercitationem corrupti accusamus maiores culpa. Aliquam dolorum excepturi a in necessitatibus dolor unde commodi deleniti et enim, voluptate nobis reprehenderit libero, velit cumque explicabo! Doloribus aliquam, necessitatibus asperiores ullam suscipit et perspiciatis libero? Optio unde voluptas quod nemo totam suscipit vitae ut, dolore doloremque a, corporis hic autem accusantium veniam illum placeat doloribus labore assumenda aperiam repellendus itaque et tempore sed! Architecto dicta suscipit doloribus officiis labore amet, eum voluptatum? Magni, ducimus!</p>
+ </div>
+ -->
 <br>
 <br>
 <p>floating elements:</p>
+<br>
+<div class="layout floating">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi inventore quibusdam molestiae explicabo voluptate aut necessitatibus ratione fugiat accusantium! Laborum quaerat exercitationem odio, nemo earum laboriosam consectetur debitis vitae officiis a fuga neque distinctio reiciendis suscipit. Ab, vitae eum excepturi sunt fuga suscipit porro ex ullam sapiente sequi cum odio cupiditate vero atque doloribus quia. Deleniti commodi rem exercitationem qui, necessitatibus fuga omnis sunt soluta nisi recusandae nesciunt cumque minus consectetur minima veniam beatae facilis esse itaque quae et aliquam! Ab tempore corrupti, quos necessitatibus provident dolore numquam adipisci vitae explicabo autem atque ea eaque placeat, perferendis sit. Architecto.</p> 
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Corporis nihil alias nobis.</span> Reiciendis atque pariatur deleniti explicabo at reprehenderit quidem molestias error accusamus ipsam voluptate repellat blanditiis aspernatur debitis nemo laudantium iusto, modi cupiditate, quia dignissimos eaque maxime. Maiores velit cumque praesentium earum eos ipsam incidunt perferendis exercitationem ducimus, pariatur, eligendi quae quam fugiat repellendus obcaecati cupiditate commodi dignissimos dolore odio soluta facere corporis. Quis voluptatem temporibus odio vero cumque error repellat sed! Sed cupiditate saepe perspiciatis odio animi tempora, minima illum tempore maxime distinctio. Accusamus, expedita tempore. Doloribus nobis autem quia eos doloremque eligendi provident iure porro sunt impedit!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora iusto recusandae. Assumenda numquam sapiente voluptatem molestiae dicta est fugit modi nobis porro dolor unde, nemo earum error, exercitationem corrupti accusamus maiores culpa. Aliquam dolorum excepturi a in necessitatibus dolor unde commodi deleniti et enim, voluptate nobis reprehenderit libero, velit cumque explicabo! Doloribus aliquam, necessitatibus asperiores ullam suscipit et perspiciatis libero? Optio unde voluptas quod nemo totam suscipit vitae ut, dolore doloremque a, corporis hic autem accusantium veniam illum placeat doloribus labore assumenda aperiam repellendus itaque et tempore sed! Architecto dicta suscipit doloribus officiis labore amet, eum voluptatum? Magni, ducimus!</p>
+ </div>
+<br>
+<br>
+<p>z-index(puts an element on a 3D plane, sort of.... it just specifies which element will be on top or bottom of the 2D page):</p>
+<br>
+<p>span element on top</p>
+<div class="layout zIndex top">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi inventore quibusdam molestiae explicabo voluptate aut necessitatibus ratione fugiat accusantium! Laborum quaerat exercitationem odio, nemo earum laboriosam consectetur debitis vitae officiis a fuga neque distinctio reiciendis suscipit. Ab, vitae eum excepturi sunt fuga suscipit porro ex ullam sapiente sequi cum odio cupiditate vero atque doloribus quia. Deleniti commodi rem exercitationem qui, necessitatibus fuga omnis sunt soluta nisi recusandae nesciunt cumque minus consectetur minima veniam beatae facilis esse itaque quae et aliquam! Ab tempore corrupti, quos necessitatibus provident dolore numquam adipisci vitae explicabo autem atque ea eaque placeat, perferendis sit. Architecto.</p> 
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Corporis nihil alias nobis.</span> Reiciendis atque pariatur deleniti explicabo at reprehenderit quidem molestias error accusamus ipsam voluptate repellat blanditiis aspernatur debitis nemo laudantium iusto, modi cupiditate, quia dignissimos eaque maxime. Maiores velit cumque praesentium earum eos ipsam incidunt perferendis exercitationem ducimus, pariatur, eligendi quae quam fugiat repellendus obcaecati cupiditate commodi dignissimos dolore odio soluta facere corporis. Quis voluptatem temporibus odio vero cumque error repellat sed! Sed cupiditate saepe perspiciatis odio animi tempora, minima illum tempore maxime distinctio. Accusamus, expedita tempore. Doloribus nobis autem quia eos doloremque eligendi provident iure porro sunt impedit!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora iusto recusandae. Assumenda numquam sapiente voluptatem molestiae dicta est fugit modi nobis porro dolor unde, nemo earum error, exercitationem corrupti accusamus maiores culpa. Aliquam dolorum excepturi a in necessitatibus dolor unde commodi deleniti et enim, voluptate nobis reprehenderit libero, velit cumque explicabo! Doloribus aliquam, necessitatibus asperiores ullam suscipit et perspiciatis libero? Optio unde voluptas quod nemo totam suscipit vitae ut, dolore doloremque a, corporis hic autem accusantium veniam illum placeat doloribus labore assumenda aperiam repellendus itaque et tempore sed! Architecto dicta suscipit doloribus officiis labore amet, eum voluptatum? Magni, ducimus!</p>
+ </div>
+ <br>
+ <p>span element on bottom</p>
+<div class="layout zIndex bottom">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eum repellat enim, ut inventore doloremque ullam cupiditate sequi totam tenetur quam harum, nisi dolorum sapiente eligendi quas vitae nam accusantium? Eaque illum itaque animi, omnis ad nobis asperiores! Assumenda, totam illum. Nisi, cumque, molestiae voluptatem minus porro at sint quas eum blanditiis optio sunt? Quo, inventore in quisquam deserunt nostrum quia id adipisci voluptas non molestias facere! Commodi doloribus incidunt sit provident maxime, mollitia officiis quisquam ipsa eius, architecto impedit modi nisi tempora et eaque quibusdam aperiam possimus facere distinctio officia! Odio doloribus assumenda fugit laborum! Hic doloremque iusto facere?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Corporis nihil alias nobis.</span> Reiciendis atque pariatur deleniti explicabo at reprehenderit quidem molestias error accusamus ipsam voluptate repellat blanditiis aspernatur debitis nemo laudantium iusto, modi cupiditate, quia dignissimos eaque maxime. Maiores velit cumque praesentium earum eos ipsam incidunt perferendis exercitationem ducimus, pariatur, eligendi quae quam fugiat repellendus obcaecati cupiditate commodi dignissimos dolore odio soluta facere corporis. Quis voluptatem temporibus odio vero cumque error repellat sed! Sed cupiditate saepe perspiciatis odio animi tempora, minima illum tempore maxime distinctio. Accusamus, expedita tempore. Doloribus nobis autem quia eos doloremque eligendi provident iure porro sunt impedit!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora iusto recusandae. Assumenda numquam sapiente voluptatem molestiae dicta est fugit modi nobis porro dolor unde, nemo earum error, exercitationem corrupti accusamus maiores culpa. Aliquam dolorum excepturi a in necessitatibus dolor unde commodi deleniti et enim, voluptate nobis reprehenderit libero, velit cumque explicabo! Doloribus aliquam, necessitatibus asperiores ullam suscipit et perspiciatis libero? Optio unde voluptas quod nemo totam suscipit vitae ut, dolore doloremque a, corporis hic autem accusantium veniam illum placeat doloribus labore assumenda aperiam repellendus itaque et tempore sed! Architecto dicta suscipit doloribus officiis labore amet, eum voluptatum? Magni, ducimus!</p>
+ </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>colored circles within div stacked:</p>
+<div class="stackedCircle">
+    <div class="stackedCircle one">
+        <div class="stackedCircle two">
+            <div class="stackedCircle three">
+                <div class="stackedCircle four">
+                    <div class="stackedCircle five">
+                        <div class="stackedCircle six"><p>bullseye</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>paragraph elements side-by-side:</p>
+<div class="sideBySide">
+    <p>As of 2006, approximately 2% of the Linux kernel was written by Torvalds himself. Despite the thousands who have contributed to it, his percentage is still one of the largest. However, he said in 2012 that his own personal contribution is now mostly merging code written by others, with little programming.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus accusamus laborum placeat earum officiis repellat quia corrupti mollitia fugiat, nemo consectetur nesciunt architecto iure eveniet tenetur porro quo veritatis accusantium dolorem debitis. Facilis magnam ullam culpa dignissimos ipsa dolorem harum, sed incidunt dicta obcaecati eius repudiandae ipsum, iusto vero tempore!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam vel facilis ab quos eos repellat doloribus quisquam. Qui natus vel enim soluta, commodi facere minima eum sequi, odio aliquam incidunt, minus tenetur cum sapiente?</p>
+    <p>As of 2006, approximately 2% of the Linux kernel was written by Torvalds himself. Despite the thousands who have contributed to it, his percentage is still one of the largest. However, he said in 2012 that his own personal contribution is now mostly merging code written by others, with little programming.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus accusamus laborum placeat earum officiis repellat quia corrupti mollitia fugiat, nemo consectetur nesciunt architecto iure eveniet tenetur porro quo veritatis accusantium dolorem debitis. Facilis magnam ullam culpa dignissimos ipsa dolorem harum, sed incidunt dicta obcaecati eius repudiandae ipsum, iusto vero tempore!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam vel facilis ab quos eos repellat doloribus quisquam. Qui natus vel enim soluta, commodi facere minima eum sequi, odio aliquam incidunt, minus tenetur cum sapiente?</p>
+    <p class="sideBySide noTouchRight" title="clear float">As of 2006, approximately 2% of the Linux kernel was written by Torvalds himself. Despite the thousands who have contributed to it, his percentage is still one of the largest. However, he said in 2012 that his own personal contribution is now mostly merging code written by others, with little programming.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus accusamus laborum placeat earum officiis repellat quia corrupti mollitia fugiat, nemo consectetur nesciunt architecto iure eveniet tenetur porro quo veritatis accusantium dolorem debitis. Facilis magnam ullam culpa dignissimos ipsa dolorem harum, sed incidunt dicta obcaecati eius repudiandae ipsum, iusto vero tempore!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam vel facilis ab quos eos repellat doloribus quisquam. Qui natus vel enim soluta, commodi facere minima eum sequi, odio aliquam incidunt, minus tenetur cum sapiente?</p>
+    <p>As of 2006, approximately 2% of the Linux kernel was written by Torvalds himself. Despite the thousands who have contributed to it, his percentage is still one of the largest. However, he said in 2012 that his own personal contribution is now mostly merging code written by others, with little programming.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus accusamus laborum placeat earum officiis repellat quia corrupti mollitia fugiat, nemo consectetur nesciunt architecto iure eveniet tenetur porro quo veritatis accusantium dolorem debitis. Facilis magnam ullam culpa dignissimos ipsa dolorem harum, sed incidunt dicta obcaecati eius repudiandae ipsum, iusto vero tempore!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam vel facilis ab quos eos repellat doloribus quisquam. Qui natus vel enim soluta, commodi facere minima eum sequi, odio aliquam incidunt, minus tenetur cum sapiente?</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
