@@ -1185,6 +1185,151 @@ margin-left: auto;
     outline: 2px solid red;    
 }
 
+.fixedBannerLayout {
+    width: 960px;
+    margin: 0 auto;
+    outline: 1px solid black;
+}
+
+#content {
+    overflow: auto;
+    height: 30%;
+}
+
+.fixedBannerLayout {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    outline: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixedBannerLayout li {
+    display: inline;
+    padding: 70px;
+}
+
+.fixedBannerHeader {
+    text-align: center;
+}
+
+#feature {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    outline: 1px solid black;
+}
+
+.fixedFooter {
+    background-color: lightcoral;
+    color: white;
+    outline: 1px solid black;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fixedWidthColumnOne {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    float: left;
+    margin: 10px;
+    width: 600px;
+}
+
+.fixedWidthColumnTwo {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    float: left;
+    margin: 10px;
+    width: 600px;
+}
+
+.fixedWidthColumnThree {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    float: left;
+    margin: 10px;
+    width: 600px;
+}
+
+.liquidBannerLayout {
+    width: 90%;
+    background-color: lightcoral;
+    color: white;
+    outline: 1px solid black;
+}
+
+
+.liquidBannerLayout li {
+    display: inline;
+}
+
+.liquidBannerHeader {
+    text-align: center;
+}
+
+
+.liquidFooter {
+    background-color: lightcoral;
+    color: white;
+    outline: 1px solid black;
+
+}
+
+.liquidWidthColumnOne {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    width: 30%;
+    float: left;
+    padding: .5em;
+    margin: 1%;
+}
+
+.liquidWidthColumnTwo {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    width: 30%;
+    float: left;
+    padding: .5em;
+    margin: 1%;
+}
+
+.liquidWidthColumnThree {
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    outline: 1px solid black;
+    width: 30%;
+    float: left;
+    padding: .5em;
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
