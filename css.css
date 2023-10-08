@@ -51,7 +51,6 @@ h5 {
 #paragraphExample01 span {
     color: rgb(255,0,0);
     text-transform: uppercase;
-    /*border is drawn inside the element's border*/
     border: 1px solid rgb(0,0,0);
     /*ouline is drawn outside the element's border, however is still within the margin*/
     outline: 2px dashed;
@@ -95,7 +94,6 @@ h5 {
 }
 
 .phScaleContainer {
-    /*margins affect outline size*/
     outline: 2px dashed;
     /*outermost*/
     margin-left: 10px;
@@ -1321,6 +1319,75 @@ margin-left: auto;
     margin: 1%;
 }
 
+.pixels_960 {
+    margin-left: auto;
+    margin-right:auto;
+    width: 960px;
+    /* outline outlines the border  */
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+/*
+.pixels_960 div {
+    margin-top: 50px;
+}
+*/
+
+#gridType {
+    outline: 1px solid black;
+    margin-bottom: 45px;
+}
+
+.pixels_960 p {
+    outline: 1px dashed green;
+    height: 60px;
+}
+
+.grid_12 {
+    margin: 10px;
+}
+
+.grid_4 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.grid_6 {
+    width: 460px;
+    float: left;
+    margin: 10px;
+}
+
+.grid_2 {
+    width: 140px;
+    float: left;
+    margin: 10px;
+}
+
+.grid_3 {
+    width: 220px;
+    float: left;
+    margin: 10px;
+}
+
+#gridTypeEnd {
+    outline: 1px solid black;
+    margin-bottom: 45px;
+    width: 960px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1602,7 +1669,12 @@ Fixed -
 
 Floating - 
 
-                                                      
+          
+
+Grids help users predict where to find information and create continuity between pages (common one is 960 pixel grid)
+these grids create vertical columns to appropriately size element boxes usually dimensions are in increments of ten,
+example in book shows 12 vertical columns with 60 pixel width, 20 pixel margin between column and 10 pixel margin on right and left side of page
+
 _|_________________________________________________960px - 1000px____________________________________________________|_      ___
  |                                                                                                                   |        |
  |                                                                                                                   |        |
@@ -1628,6 +1700,15 @@ _|_________________________________________________960px - 1000px_______________
  |                                                                                                                   |
  |                                                                                                                   |
 ___________________________________________________________________________
+
+
+CSS frameworks - provides code for layout grids, styling forms, creating printer-friendly versions of pages.
+(disadvantage to frameworks - class names are usually specifically named for controlling the presentation of the page, and these frameworks usually have more code than you actually need)
+
+
+Multiple CSS stylesheets - useful for organizing certain elements ie... modular (forms stylesheet, tables stylesheet, font stylesheet) 
+
+
 HTML NOTES:
 
 Multiple Identifiers (ie... class and classes) with inheritance:
