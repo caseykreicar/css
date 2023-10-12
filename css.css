@@ -1381,6 +1381,22 @@ margin-left: auto;
     margin-right:auto;
 }
 
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| LAYOUT ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+img.small {
+    width: 220px;
+    height: 360px;
+}
+
+img.medium {
+    width: 440px;
+    height: 720px;
+}
+
+img.large {
+    width: 660px;
+    height: 1280px;
+}
 
 
 
