@@ -1381,7 +1381,7 @@ margin-left: auto;
     margin-right:auto;
 }
 
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| LAYOUT ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| IMAGES ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 img.small {
     width: 220px;
@@ -1398,8 +1398,103 @@ img.large {
     height: 1280px;
 }
 
+/* you can more easily identify the classes element using this selector method */
+img.alignLeft {
+    float: left;
+    margin: 4px;
+}
 
+.alignRight {
+    float: right;
+    margin: 4px;
+}
 
+/*align images on center of page*/
+.small.alignCenter {
+    display: block;
+    margin: 0px auto;
+}
+
+p.imageBackgroundWhiteText {
+    color: white;
+    background-image: url("./debianBackground.jpg");
+    font-weight: 600;
+    margin: 4px;
+    padding: 12px;
+    outline: 2px solid black;
+} 
+
+.repeatX {
+    background-image: url("./emailLogo.png");
+    background-repeat: repeat-x;
+}
+
+.repeatY {
+    background-image: url("./emailLogo.png");
+    background-repeat: repeat-y;
+}
+
+.positionTopRight {
+    background-image: url("./emailLogo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.positionCenterCenter {
+    background-image: url("./emailLogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.positionLeftBottom {
+    background-image: url("./emailLogo.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.positionPercentage {
+    background-image: url("./emailLogo.png");
+    background-repeat: no-repeat;
+    background-position: 75% 65%;
+}
+
+.imageShorthand {
+    outline: 1px solid black;
+    background: 
+        url("./emailLogo.png")
+        no-repeat top left,
+        url("./emailLogo.png")
+        no-repeat top right,
+        url("./emailLogo.png")
+        no-repeat bottom right,
+        url("./emailLogo.png")
+        no-repeat center center,
+        url("./emailLogo.png")
+        no-repeat bottom left;
+}
+
+.button {
+    height: 220px;
+    width: 160px;
+    background-image: url("./1.png");
+    background-position: -30px;
+    background-repeat: no-repeat;
+}
+
+div#one1:hover {
+    height: 220px;
+    width: 160px;
+    background-image: url("./2.png");
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+
+div#one1:active {
+    height: 220px;
+    width: 160px;
+    background-image: url("./3.png");
+    background-position: 40px 
+}
 
 
 
